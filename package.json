@@ -1,0 +1,21 @@
+{
+  "name": "qr_codes_generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntanzi07/QR_Codes_Generator.git"
+  },
+  "keywords": [],
+  "author": "Nathan Tanzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ntanzi07/QR_Codes_Generator/issues"
+  },
+  "homepage": "https://github.com/Ntanzi07/QR_Codes_Generator#readme",
+  "description": ""
+}
