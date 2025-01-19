@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    
+    "start": "node src/index.js",
+    "start:watch": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
     "url": "https://github.com/Ntanzi07/QR_Codes_Generator/issues"
   },
   "homepage": "https://github.com/Ntanzi07/QR_Codes_Generator#readme",
-  "description": "QR Code and password generator"
+  "description": "QR Code and password generator",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
 }
