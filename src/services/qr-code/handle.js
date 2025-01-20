@@ -8,10 +8,10 @@ async function handle(err, result) {
  }
     
  const isSmall = result.type == 2;
- console.log(isSmall);
- 
+
  qr.generate(result.link, {small: isSmall}, (qrcode) => {
-   console.log(qrcode);
+    console.log(chalk.green("\nQRCODE CREATED SUCESSFULLY!!"))
+    console.log(qrcode);
  }); 
 }
 export default handle;
