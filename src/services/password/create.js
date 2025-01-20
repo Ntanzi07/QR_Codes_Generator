@@ -1,5 +1,7 @@
+import handle from "./handle.js";
+
 async function createPassord() {
-    console.log("password");
+    handle();
 }
 
 export default createPassord;
